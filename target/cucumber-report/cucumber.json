@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-18T03:31:42.854Z",
+        "line": 2,
+        "name": "validation check on login page",
+        "description": "",
+        "id": "login-to-facebook;validation-check-on-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7485000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user navigates to facebook login page",
+            "match": {
+              "location": "stepDefinations.loginPageSteps.user_navigates_to_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6328000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enters his \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinations.loginPageSteps.enters_his_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "assert validion error message",
+            "match": {
+              "location": "stepDefinations.loginPageSteps.assert_validion_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to faceBook",
+    "description": "",
+    "id": "login-to-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/features/login.feature",
+    "tags": []
+  }
+]

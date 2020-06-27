@@ -1,0 +1,9 @@
+BrownBag/.classpath
+BrownBag/.factorypath
+BrownBag/.settings/org.eclipse.jdt.core.prefs
+BrownBag/.settings/org.eclipse.jdt.apt.core.prefs
+BrownBag/.settings 
+
+target/
+.idea/*
+/bin/

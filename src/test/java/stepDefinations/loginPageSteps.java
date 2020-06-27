@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class loginPageSteps {
   WebDriver driver = new ChromeDriver();
  public void intializeDriver(){
-   System.setProperty("webdriver.chrome.driver", "F:\\BrownBag\\tools\\chromedriver.exe");
+   System.setProperty("webdriver.chrome.driver", "\\BrownBag\\tools\\chromedriver.exe");
  }
   @Given("user navigates to facebook login page")
   public void user_navigates_to_facebook_login_page() {
